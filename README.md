@@ -66,7 +66,7 @@ The code will automatically clean and process all raw data, and upload the proce
 7. Ensure to rename the .env copy file to just .env
 
 ## Instructions on how to start interface 
-1. Ensure steps 1-4 in "Instructions on how to install the required libraries" are done
+1. Ensure steps 1-3 in "Instructions on how to install the required libraries" are done
 2. Ensure all steps in "Instructions regarding creating a .env file" are done
 3. Inside the ChatDB, move to the src folder
 4. Open a new terminal session
