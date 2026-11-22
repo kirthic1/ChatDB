@@ -24,14 +24,14 @@ world public health database, and a world socioeconomics database.
 
 ## Instructions on how to install the required libraries
 1. Ensure steps 1-3 in "Instructions to create a conda environment" are done
-2. Change directory (cd in Terminal) to the DSCI551-Final-Project folder
+2. Change directory (cd in Terminal) to the ChatDB folder
 3. pip install -r requirements.txt
 
 ## Accessing the Raw Data
 The raw datasets required to run ChatDB are available in the GitHub Releases section. 
 1. Download raw_data.zip from the latest release.
 2. Extract the ZIP file.
-3. Place the extracted raw_data folder in the DSCI551-Final-Project directory.
+3. Place the extracted raw_data folder in the ChatDB directory.
 
 ## How the Raw Data Was Collected
 The following provides information on how the raw crime dataset (API data) was collected.
@@ -45,7 +45,7 @@ Crime Data from API
 5. Use offset and limit parameters to retrieve data in small sets (already implemented in my code)
 
 The following provides information on how the raw Immunization, Education, Lifestyle, Life Expectancy, Maternal Health, Non-Communicable Diseases, Nutrition, and Sanitation Services data was collected.
-This is the downloaded data. This has already been provided in the DSCI551-Final-Project folder
+This is the downloaded data. This has already been provided in the raw_data.zip file under GitHub Releases.
 1. Go to https://databank.worldbank.org/source/health-nutrition-and-population-statistics
 2. Select the same countries, years, and measures as indicated in the raw data folders
 3. Click download as Excel
@@ -68,7 +68,7 @@ The code will automatically clean and process all raw data, and upload the proce
 ## Instructions on how to start interface 
 1. Ensure steps 1-4 in "Instructions on how to install the required libraries" are done
 2. Ensure all steps in "Instructions regarding creating a .env file" are done
-3. Inside the DSCI551-Final-Project folder, move to the src folder
+3. Inside the ChatDB, move to the src folder
 4. Open a new terminal session
 5. Make sure to activate the conda environment that was created as part of previous instructions
 6. Type the following command as is: python main.py 
