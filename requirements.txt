@@ -1,0 +1,9 @@
+requests
+pandas
+pymysql
+mysql-connector-python
+SQLAlchemy
+python-dotenv
+openpyxl
+openai
+numpy
