@@ -27,18 +27,24 @@ world public health database, and a world socioeconomics database.
 2. Change directory (cd in Terminal) to the DSCI551-Final-Project folder
 3. pip install -r requirements.txt
 
-## Instructions on how to retrieve raw data
-The following provides information on how the raw crime dataset (API data) was retrieved.
-The code automatically retrieves the raw crime data. 
+## Accessing the Raw Data
+The raw datasets required to run ChatDB are available in the GitHub Releases section. 
+1. Download raw_data.zip from the latest release.
+2. Extract the ZIP file.
+3. Place the extracted raw_data folder in the DSCI551-Final-Project directory.
+
+## How the Raw Data Was Collected
+The following provides information on how the raw crime dataset (API data) was collected.
+The code automatically collects the raw crime data. 
 The user just needs to sign up for an App token. 
 Crime Data from API
 1. Go to https://data.lacity.org/Public-Safety/Crime-Data-from-2020-to-Present/2nrs-mtv8/about_data
 2. Click on Export, API Endpoint, API documentation
 3. Sign up for App token
 4. Use the App token in request to API
-5. Use offset and limit parameters to retrieve data in small sets (implemented in code)
+5. Use offset and limit parameters to retrieve data in small sets (already implemented in my code)
 
-The following provides information on how the raw Immunization, Education, Lifestyle, Life Expectancy, Maternal Health, Non-Communicable Diseases, Nutrition, and Sanitation Services data was retrieved
+The following provides information on how the raw Immunization, Education, Lifestyle, Life Expectancy, Maternal Health, Non-Communicable Diseases, Nutrition, and Sanitation Services data was collected.
 This is the downloaded data. This has already been provided in the DSCI551-Final-Project folder
 1. Go to https://databank.worldbank.org/source/health-nutrition-and-population-statistics
 2. Select the same countries, years, and measures as indicated in the raw data folders
